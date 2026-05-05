@@ -1,5 +1,24 @@
-# Vue 3 + TypeScript + Vite
+# Image Carousel Selector
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Image Carousel Selector — це Vue 3 застосунок для перегляду зображень у форматі каруселі з можливістю вибору картинок, збереження вибраних елементів у `localStorage` та керування списком обраного. 
+Програма автоматично адаптується під ширину екрана, підтримує плавну анімацію прокрутки та зручне керування вибраними зображеннями.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Можливості
+- нескінченна карусель зображень із плавною анімацією;
+- адаптивне відображення кількості карток залежно від розміру екрана;
+- вибір і зняття вибору зображень одним кліком;
+- автоматичне збереження обраних зображень у `localStorage`;
+- відображення списку вибраних картинок із можливістю видалення окремих елементів;
+- кнопка очищення всіх вибраних зображень;
+- компактний і сучасний інтерфейс із hover-ефектами та переходами.
+
+## Використані технології
+- Vue 3
+- TypeScript
+- Composition API
+- CSS scoped styles
+- Local Storage API
+
+## Опис роботи
+Користувач переглядає зображення в каруселі, натискає на потрібні картки, і вони додаються до секції `selected`. 
+Усі обрані елементи зберігаються в браузері, тому після оновлення сторінки вони залишаються доступними. За потреби можна видалити окреме зображення або очистити весь список одразу.
